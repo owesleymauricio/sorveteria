@@ -3,7 +3,8 @@ import {
     Heading,
     Image,
     Grid,
-    Text
+    Text,
+    Flex
 } from '@chakra-ui/react';
 import React from 'react'
 
@@ -17,13 +18,17 @@ function Rodape() {
                 alignItems={'center'}
                 justifyContent={'center'}
                 p={'20px'}
+                maxW={'1200px'}
+                marginRight={'auto'}
+                marginLeft={'auto'}
             >
                 <Box
-                 height='120px'
-                 display={'flex'}
-                 alignSelf={'center'}
-                 justifyContent={'center'}
-                 >
+                    height='120px'
+                    display={'flex'}
+                    alignSelf={'center'}
+                    justifyContent={'center'}
+                   
+                >
                     <Image
                         src='assets/logo.png'
                         alt='logo'
@@ -54,7 +59,7 @@ function Rodape() {
                         São Paulo, SP 12345-678
                     </Text>
                 </Box>
-                <Box  height='120px'>
+                <Box height='120px'>
                     <Box
                         height='120px'
                         textAlign={'center'}
@@ -78,7 +83,7 @@ function Rodape() {
                     </Box>
                 </Box>
 
-                <Box  height='120px'>
+                <Box height='120px'>
                     <Box
                         height='120px'
                         textAlign={'center'}
@@ -92,14 +97,28 @@ function Rodape() {
                             HORÁRIOS
                         </Heading>
                         <Text>
-                        ABERTO TODOS OS DIAS
+                            ABERTO TODOS OS DIAS
                         </Text>
                         <Text>
-                        10:00 - 22:00
+                            10:00 - 22:00
                         </Text>
                     </Box>
                 </Box>
             </Grid>
+            <Flex
+                bg={'#000'}
+                height={'50px'}
+                align={'center'}
+                justify={'center'}
+                
+            >
+                <Text
+                color={'#fff'}
+                textAlign={'center'}
+                >
+                    Gelateria. Orgulhosamente desenvolvido por "Wesley mauricio"
+                </Text>
+            </Flex>
 
         </>
     )
