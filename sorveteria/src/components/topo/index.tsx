@@ -29,6 +29,7 @@ function Topo() {
             </Flex>
             <Flex
                 align={'center'}
+                color={'#fff'}
             >
                 <Flex
                     display={{ base: 'none', md: 'flex' }} // Mostrar o menu na versão desktop e ocultar na versão mobile
@@ -83,7 +84,9 @@ function Topo() {
                     <DrawerContent>
                         <DrawerCloseButton />
                         <DrawerHeader>Menu</DrawerHeader>
-                        <DrawerBody>
+                        <DrawerBody
+                        color={'#fff'}
+                        >
                             <Flex flexDirection='column'>
                                 <Link
                                     as={NextLink}
