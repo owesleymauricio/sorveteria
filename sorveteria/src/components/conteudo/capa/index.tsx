@@ -35,7 +35,8 @@ function Capa() {
                     as="h1"
                      size={{base: '2xl', md: '4xl'}}
                     whiteSpace={{ base: 'unset', md: 'nowrap' }} // Alterando a propriedade white-space para 'unset' em telas menores
-              
+                    textShadow={'1px 2px 1px #000'}
+                    color={'#fff'}
                     >
                     SORVETE ARTESANAL
                     </Heading>
