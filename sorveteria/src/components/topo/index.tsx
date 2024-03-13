@@ -74,6 +74,7 @@ function Topo() {
                     display={{ base: 'flex', md: 'none' }} // Mostrar o ícone do hamburguer na versão mobile e ocultar na versão desktop
                     onClick={onOpen}
                     variant='ghost'
+        
                 />
                 <Drawer
                     isOpen={isOpen}
@@ -85,7 +86,7 @@ function Topo() {
                         <DrawerCloseButton />
                         <DrawerHeader>Menu</DrawerHeader>
                         <DrawerBody
-                        color={'#fff'}
+                        
                         >
                             <Flex flexDirection='column'>
                                 <Link
@@ -97,6 +98,7 @@ function Topo() {
                                         transform: 'translateY(-3px)'
                                     }}
                                     onClick={onClose}
+                                    color={'#fff'}
                                 >
                                     Home
                                 </Link>
@@ -109,6 +111,7 @@ function Topo() {
                                         transform: 'translateY(-3px)'
                                     }}
                                     onClick={onClose}
+                                    color={'#fff'}
                                 >
                                     Sabores
                                 </Link>
@@ -121,6 +124,7 @@ function Topo() {
                                         transform: 'translateY(-3px)'
                                     }}
                                     onClick={onClose}
+                                    color={'#fff'}
                                 >
                                     Sobre
                                 </Link>
