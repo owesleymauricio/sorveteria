@@ -98,7 +98,7 @@ function Topo() {
                                         transform: 'translateY(-3px)'
                                     }}
                                     onClick={onClose}
-                                    color={'#fff'}
+                                    
                                 >
                                     Home
                                 </Link>
@@ -111,7 +111,7 @@ function Topo() {
                                         transform: 'translateY(-3px)'
                                     }}
                                     onClick={onClose}
-                                    color={'#fff'}
+                                    
                                 >
                                     Sabores
                                 </Link>
@@ -124,7 +124,7 @@ function Topo() {
                                         transform: 'translateY(-3px)'
                                     }}
                                     onClick={onClose}
-                                    color={'#fff'}
+                                    
                                 >
                                     Sobre
                                 </Link>
